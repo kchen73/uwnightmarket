@@ -3,39 +3,82 @@
   <head>
     <meta charset="UTF-8">
     <title>UW Night Market</title>
-    <style>
-      body {background-color: rgba(217, 77, 93,1); font-family: Verdana; color: white; text-align: center; margin: 0}
-      img {width: 100%}
-      h3 {padding-top: 1em}
-      p {margin-top: 1px}
-      footer {padding-top: 2em}
-    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="icon" href="img/icon.png">
   </head>
   <body>
-    <img src="img/poster.jpg"></img>
-    <h3><u>TERMS AND CONDITIONS</u></h3>
-    <p><i>Last Updated: 04/28/2018</i></p>
-    <p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the UW Night Market mobile application (the "Service") operated by the UW Night Market Team ("us", "we", or "our").</p>
-    <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
-    <p><b>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.</b></p>
-    <h3>Purchases</h3>
-    <p>We will not be liable for any purchases for any products or services advertised through our Service.</p>
-    <h3>Subscriptions</h3>
-    <p>Our Service does not provide subscriptions. Use of our Service is free of charge.</p>
-    <h3>Content</h3>
-    <p>Our Service allows you to place orders with third party vendors. If any issues regarding orders arise, you are responsible for resolving any issues with the third party vendor(s) involved.</p>
-    <p>Third party vendors involved with mobile ordering reserve the right to cancel orders that they are unable to fulfill.</p>
-    <p>We reserve the right to prohibit access to our Service if we find actions of abuse. For instance, repeated unfulfilled orders by you is an example of abuse. We also reserve the right to determine what we believe to be abuse of our Service.</p>
-    <h3>Data</h3>
-    <p>We will be collecting data regarding volume of users, number of orders, and order information. Our Service uses order numbers to track orders between users and third party vendors, as well as location tracking for user convenience when using our Service's map. Order numbers and location tracking will not be shared with anyone other than pertinent users and vendors involved with our Service.</p>
-    <h3>Links To Other Websites</h3>
-    <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by the UW Night Market Team.</p>
-    <p>The UW Night Market Team has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that The UW Night Market Team shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
-    <h3>Changes</h3>
-    <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 7 (seven) days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
-    <h3>Contact Us</h3>
-    <p>If you have any questions about these Terms, please contact us at nightmarket.uw@gmail.com.</p>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#team">Team</a>
+      <a href="#legal">Legal</a>
+    </div>
+    <div id="home">
+      <img src="img/home.jpg"></img>
+    </div>
+    <div id="about">
+      <img src="img/about.jpg"></img>
+    </div>
+    <div id="features">
+      <img src="img/features.jpg"></img>
+    </div>
+    <div class="container" id="team">
+      <h1 align="center"><b><big>Team</big></b></h1>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <a href="https://www.linkedin.com/in/kchen73/"><img id="mug" src="img/kevin.jpg"></img></a>
+          <h3>KEVIN CHEN</h3>
+          <h4>Project Manager</h4>
+        </div>
+        <div class="col-md-3">
+          <a href="https://www.linkedin.com/in/joycekdeng/"><img id="mug" src="img/joyce.jpg"></img></a>
+          <h3>JOYCE DENG</h3>
+          <h4>UX Designer</h4>
+        </div>
+        <div class="col-md-3">
+            <a href="https://www.linkedin.com/in/jacobdevera/"><img id="mug" src="img/jacob.jpg"></img></a>
+          <h3>JACOB DEVERA</h3>
+          <h4>Software Developer</h4>
+        </div>
+        <div class="col-md-3">
+          <a href="https://www.linkedin.com/in/zhaoyang-yi/"><img id="mug" src="img/patrick.jpg"></img></a>
+          <h3>PATRICK YI</h3>
+          <h4>Software Developer</h4>
+        </div>
+      </div>
+    </div>
+    <div id="legal">
+      <div id="text">
+        <h1 id="terms"><b>TERMS AND CONDITIONS</b></h1>
+        <p><i>Last Updated: 04/28/2018</i></p>
+        <p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the UW Night Market mobile application (the "Service") operated by the UW Night Market Team ("us", "we", or "our").</p>
+        <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
+        <p><b>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.</b></p>
+        <h3>Purchases</h3>
+        <p>We will not be liable for any purchases for any products or services advertised through our Service.</p>
+        <h3>Subscriptions</h3>
+        <p>Our Service does not provide subscriptions. Use of our Service is free of charge.</p>
+        <h3>Content</h3>
+        <p>Our Service allows you to place orders with third party vendors. If any issues regarding orders arise, you are responsible for resolving any issues with the third party vendor(s) involved.</p>
+        <p>Third party vendors involved with mobile ordering reserve the right to cancel orders that they are unable to fulfill.</p>
+        <p>We reserve the right to prohibit access to our Service if we find actions of abuse. For instance, repeated unfulfilled orders by you is an example of abuse. We also reserve the right to determine what we believe to be abuse of our Service.</p>
+        <h3>Data</h3>
+        <p>We will be collecting data regarding volume of users, number of orders, and order information. Our Service uses order numbers to track orders between users and third party vendors, as well as location tracking for user convenience when using our Service's map. Order numbers and location tracking will not be shared with anyone other than pertinent users and vendors involved with our Service.</p>
+        <h3>Links To Other Websites</h3>
+        <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by the UW Night Market Team.</p>
+        <p>The UW Night Market Team has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that The UW Night Market Team shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+        <h3>Changes</h3>
+        <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 7 (seven) days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
+        <h3>Contact Us</h3>
+        <p>If you have any questions about these Terms, please contact us at nightmarket.uw@gmail.com.<br> </p>
+      </div>
+    </div>
   </body>
-  <footer><i><center>Kevin Chen, Joyce Deng, Jacob Devera, Patrick Yi</center></i></footer>
+  <footer><i><center>© 2018 UW Night Market Team | UW Information School | Seattle, WA</center></i></footer>
 </html>

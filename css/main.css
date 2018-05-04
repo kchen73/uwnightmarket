@@ -1,7 +1,8 @@
 body {background-color: rgba(217, 77, 93,1); font-family: 'Montserrat', sans-serif; color: white; margin: 0}
 img {width: 100%; margin: 0px; padding: 0em;}
-p {margin-top: 1px}
-footer {padding-bottom: 1em}
+p {margin-top: 1px; text-align: left;}
+h3 {text-align: left;}
+footer {padding-bottom: 1em; padding-top: 1em;}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -42,9 +43,10 @@ footer {padding-bottom: 1em}
 }
 
 #text {
-  width: 75%;
+  width: 50%;
   margin: auto;
   text-align: center;
+  padding-bottom: 1em;
 }
 
 #mug {
